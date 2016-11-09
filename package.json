@@ -1,0 +1,48 @@
+{
+  "name": "gulp-rmlines",
+  "version": "0.1.0",
+  "description": "A line-remover plugin for gulp",
+  "license": "MIT",
+  "repository": "t1st3/gulp-rmlines",
+  "author": {
+    "name": "t1st3",
+    "email": "contact@tiste.org",
+    "url": "tiste.org"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo index.js test.js && mocha",
+    "coverage": "nyc --reporter=lcov --reporter=text-lcov mocha",
+    "precoveralls": "npm run coverage",
+    "coveralls": "cat coverage/lcov.info | ./node_modules/.bin/coveralls"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "gulpplugin",
+    "line",
+    "remove"
+  ],
+  "dependencies": {
+    "concat-stream": "^1.5.2",
+    "into-stream": "^3.0.0",
+    "rmlines": "^0.1.1",
+    "through2": "^2.0.1"
+  },
+  "devDependencies": {
+    "coveralls": "^2.11.14",
+    "mocha": "^3.1.2",
+    "nyc": "^8.4.0",
+    "vinyl": "^2.0.0",
+    "xo": "*"
+  },
+  "nyc": {
+    "reporter": [
+      "lcov",
+      "text"
+    ]
+  }
+}

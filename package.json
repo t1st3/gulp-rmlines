@@ -35,6 +35,7 @@
   "devDependencies": {
     "coveralls": "^2.11.14",
     "mocha": "^3.1.2",
+    "mocha-lcov-reporter": "^1.2.0",
     "nyc": "^8.4.0",
     "vinyl": "^2.0.0",
     "xo": "*"

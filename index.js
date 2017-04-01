@@ -15,7 +15,7 @@ const transfromStream = function (file, enc, cb) {
 	if (file.isBuffer()) {
 		const stream = intoStream(file.contents);
 		stream.pipe(rmlines(self.lines, self.opts)).pipe(concatStream(data => {
-			file.contents = new Buffer(data);
+			file.contents = Buffer.from(data);
 			cb(null, file);
 		}));
 		return;

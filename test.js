@@ -62,13 +62,13 @@ describe('gulpRmlines', () => {
 		});
 		const v = {
 			contents: 'abc',
-			isNull: function () {
+			isNull: () => {
 				return false;
 			},
-			isBuffer: function () {
+			isBuffer: () => {
 				return false;
 			},
-			isStream: function () {
+			isStream: () => {
 				return false;
 			}
 		};

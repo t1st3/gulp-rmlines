@@ -48,4 +48,4 @@ See [`rmlines`'s options](https://github.com/t1st3/rmlines#options), which are a
 
 ## License
 
-MIT © [t1st3](http://tiste.org)
+MIT © [t1st3](https://t1st3.com)

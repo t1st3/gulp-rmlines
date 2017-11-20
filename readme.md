@@ -1,4 +1,4 @@
-# gulp-rmlines [![Build Status Travis](https://travis-ci.org/t1st3/gulp-rmlines.svg?branch=master)](https://travis-ci.org/t1st3/gulp-rmlines) [![Coverage Status](https://coveralls.io/repos/github/t1st3/gulp-rmlines/badge.svg?branch=master)](https://coveralls.io/github/t1st3/gulp-rmlines?branch=master)
+# gulp-rmlines [![Build Status Travis](https://travis-ci.org/t1st3/gulp-rmlines.svg?branch=master)](https://travis-ci.org/t1st3/gulp-rmlines) [![codecov](https://codecov.io/gh/t1st3/gulp-rmlines/badge.svg?branch=master)](https://codecov.io/gh/t1st3/gulp-rmlines?branch=master)
 
 > A line-remover plugin for [`gulp`](http://gulpjs.com/)
 

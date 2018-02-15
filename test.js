@@ -6,7 +6,7 @@ const strictEqual = require('assert').strictEqual;
 const fs = require('fs');
 const concatStream = require('concat-stream');
 const Vinyl = require('vinyl');
-const gulpRmlines = require('./');
+const gulpRmlines = require('.');
 
 describe('gulpRmlines', () => {
 	it('pipes correctly when file.contents is a buffer', done => {

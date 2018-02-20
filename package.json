@@ -38,7 +38,7 @@
     "mocha-lcov-reporter": "^1.2.0",
     "nyc": "^11.0.1",
     "vinyl": "^2.0.0",
-    "xo": "0.20.2"
+    "xo": "0.20.3"
   },
   "nyc": {
     "reporter": [

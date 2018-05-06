@@ -27,18 +27,18 @@
     "remove"
   ],
   "dependencies": {
-    "concat-stream": "^1.5.2",
+    "concat-stream": "^1.6.2",
     "into-stream": "^3.0.0",
-    "rmlines": "^0.1.2",
+    "rmlines": "^0.2.0",
     "through2": "^2.0.1"
   },
   "devDependencies": {
-    "codecov": "^3.0.0",
-    "mocha": "^5.0.0",
+    "codecov": "^3.0.1",
+    "mocha": "^5.1.1",
     "mocha-lcov-reporter": "^1.2.0",
-    "nyc": "^11.0.1",
+    "nyc": "^11.7.1",
     "vinyl": "^2.0.0",
-    "xo": "0.20.1"
+    "xo": "0.21.0"
   },
   "nyc": {
     "reporter": [

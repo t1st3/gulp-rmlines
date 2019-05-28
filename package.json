@@ -29,7 +29,7 @@
   "dependencies": {
     "concat-stream": "^2.0.0",
     "into-stream": "^5.1.0",
-    "rmlines": "^1.0.0",
+    "rmlines": "^2.0.0",
     "through2": "^3.0.0"
   },
   "devDependencies": {

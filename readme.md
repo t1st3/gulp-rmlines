@@ -50,7 +50,7 @@ See [`rmlines`'s options](https://github.com/t1st3/rmlines#options), which are a
 
 * [rmlines](https://github.com/t1st3/rmlines) | API for rmlines
 * [rmlines-cli](https://github.com/t1st3/rmlines-cli) | CLI for rmlines
-* [gulp-rmlines](https://github.com/t1st3/grunt-rmlines) | rmlines as a [`Grunt`](http://gruntjs.com/) plugin
+* [grunt-rmlines](https://github.com/t1st3/grunt-rmlines) | rmlines as a [`Grunt`](http://gruntjs.com/) plugin
 
 
 ## License
